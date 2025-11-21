@@ -28,25 +28,22 @@ function nama() {
 
 function saya(perkenalan) {
     return perkenalan;
-} document.write(`assalamualaikum, perkenalkan nama saya Dhabith Abdillah Adipraja`)
+} document.write(`assalamualaikum, perkenalkan nama saya Dhabith Abdillah Adipraja <br>`)
 
 function kelas(kls) {
     return kls;
-} document.write(` saya kelas X/PPLG `)
+} document.write(` saya kelas X/PPLG <br>`)
 
 function sekul(sekolah) {
     return sekolah;
-} document.write(`saya sekolah di SMK TI Bazma `)
+} document.write(`saya sekolah di SMK TI Bazma<br> `)
 
 function alamat(alamat) {
     return alamat;
-} document.write(`rumah saya di bojonggede kab. bogor `)
+} document.write(`rumah saya di bojonggede kab. bogor<br> `)
 
 function hobi(hobiii) {
     return hobiii;
 } document.write(`hobi saya makan`)
-
-
-
 
 
