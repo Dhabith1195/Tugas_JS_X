@@ -12,11 +12,13 @@ let ripen = {
     smp: "SPQ At-tartil",
     sma: "SMK TI Bazma",
 }
- 
+
 document.write("PERKENALAN<br><br>");
 document.write(`Nama: ${saya.nama}<br> umur sekarang: ${saya.usia}<br> Asal Sekolah: ${saya.sekolah}<br> cita-cita: ${saya.cita2}<br> saya suka makan<br> ${saya.makananFavorit}<br> hobi: ${saya.hobi}.<br> `);
 
-document.write("<br>RIWAYAT PENDIDIKAN<br><br>");
+console.log(`Nama: ${saya.nama}<br> umur sekarang: ${saya.usia}<br> Asal Sekolah: ${saya.sekolah}<br> cita-cita: ${saya.cita2}<br> saya suka makan<br> ${saya.makananFavorit}<br> hobi: ${saya.hobi}.<br> `);
+
+document.write("<br><br>RIWAYAT PENDIDIKAN<br><br>");
 document.write(`SD: ${ripen.sd}<br> SMP: ${ripen.smp}<br> SMA: ${ripen.sma}`);
 
 
@@ -43,6 +45,7 @@ function alamat(alamat) {
 function hobi(hobiii) {
     return hobiii;
 } document.write(`hobi saya makan`)
+
 
 
 
