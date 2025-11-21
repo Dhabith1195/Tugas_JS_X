@@ -1,3 +1,15 @@
+let saya = {
+    nama: "Dhabith",
+    usia: 16,
+    sekolah: "SMK TI Bazma",
+    cita2: "programmer",
+    makananFavorit: "semur daging",
+    hobi: "Bobo",
+}
+
+document.write("BIODATA SAYA<br><br>");
+document.write(`Nama: ${saya.nama}<br> umur sekarang: ${saya.usia}<br> Asal Sekolah: ${saya.sekolah}<br> cita-cita: ${saya.cita2}<br> saya suka makan<br> ${saya.makananFavorit}<br> hobi: ${saya.hobi}. `);
+
 function nama() {
     alert("SELAMAT");
 } nama();
@@ -21,5 +33,6 @@ function alamat(alamat) {
 function hobi(hobiii) {
     return hobiii;
 } document.write(`hobi saya makan`)
+
 
 
